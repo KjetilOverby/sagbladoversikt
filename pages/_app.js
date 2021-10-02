@@ -8,7 +8,7 @@ import axios from 'axios';
 import '../components/loginscreen2/loginscreen.css';
 import { getRedirectStatus } from 'next/dist/lib/load-custom-routes';
 var dateFormat = require('dateformat');
-//import '../css/react_dates.css';
+
 
 const api = axios.create({
   baseURL: process.env.api,
