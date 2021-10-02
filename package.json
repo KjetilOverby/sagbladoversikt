@@ -1,0 +1,26 @@
+{
+  "name": "moelvensagbladregister",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "clsx": "latest",
+    "dateformat": "^4.5.1",
+    "detect-browser": "^5.2.0",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dates": "^21.8.0",
+    "react-dom": "latest",
+    "react-responsive": "^8.2.0",
+    "recharts": "^2.0.8"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
