@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100vw",
   },
 }));
-const nominell = [20, 20, 50, 50, 30, 50, 25, 25, 25, 25, 25, 25, 25];
+const nominell = [20, 20, 60, 60, 30, 60, 25, 25, 25, 25, 25, 25, 25];
 const bladeTypes = [
   "Kanefusa 2.2-3.6",
   "Kanefusa 2.4-3.8",
