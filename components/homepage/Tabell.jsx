@@ -1,12 +1,12 @@
-import React from 'react';
-import Link from '@material-ui/core/Link';
-import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import { Hidden, Typography } from '@material-ui/core';
+import React from "react";
+import Link from "@material-ui/core/Link";
+import { makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import { Hidden, Typography } from "@material-ui/core";
 
 // Generate Order Data
 function createData(id, date, name, shipTo, paymentMethod, amount) {
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Tabell({ sawbladeCountList, numberOfBlades }) {
   const classes = useStyles();
-
+  console.log(sawbladeCountList);
   return (
     <React.Fragment>
       <Hidden mdDown>
@@ -36,7 +36,7 @@ export default function Tabell({ sawbladeCountList, numberOfBlades }) {
           <TableHead>
             <TableRow>
               <TableCell>
-                Bladtype ({sawbladeCountList && sawbladeCountList.length}){' '}
+                Bladtype ({sawbladeCountList && sawbladeCountList.length}){" "}
               </TableCell>
               <TableCell>
                 Antall sagblad (
